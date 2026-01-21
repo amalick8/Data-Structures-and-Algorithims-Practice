@@ -10,3 +10,4 @@ def convert(amount, currency):
     conversion_amount = amount * rates[currency]
     return conversion_amount
 print(convert(100,'PKR'))
+
