@@ -7,7 +7,7 @@ def length_of_longest_substring(s):
         while s[right] in seen:
             seen.remove(s[left])
             left += 1
-    
+        
     seen.add(s[right])
     best = max(best, right - left +1)
 
